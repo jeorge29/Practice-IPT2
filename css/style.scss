@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 5em 15em;
+    //background-color: hsl(30, 38%, 92%);
+    background-color: rgb(241, 228, 204);
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: whitesmoke;
+    border-radius: 2.5em;
+    padding: 2.5em 5em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.head{
+    background-color: rgb(31, 30, 30);
+    width: 132.7%;
+    margin-left: -5em;
+
+    h1{
+        font-size: 4rem;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(53, 200, 226);
+        margin-bottom: .5em;
+        padding: .2em;
+    }
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.poppins{
+    font-weight: bold; 
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .850rem;
+}
+
+.name,
+.container-bottom{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-name-name{
+
+    .surname{
+        transform: translateX(-1%);
+    }
+
+    .firstname{
+        transform: translateX(10%);
+    }
+
+    .middlename{
+        transform: translateX(9%);
+    }
+}
+
+.dividi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .dvd{
+        border-bottom: solid 2px rgba(0, 0, 0, 0.877);
+        width: 90%;
+    }
+    
+}
+
+.dividi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .dvd{
+        border-top: solid 2px rgba(0, 0, 0, 0.726);
+        width: 40%;
+    }
+}
